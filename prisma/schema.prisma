@@ -1,0 +1,208 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Evidence {
+  id         String   @id
+  title      String
+  sourceType String
+  summary    String
+  dateLabel  String
+  tags       String
+  confidence Int
+  note       String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  signals    Signal[]
+}
+
+model Signal {
+  id          String          @id
+  title       String
+  description String
+  domain      String
+  strength    Int
+  evidenceId  String?
+  evidence    Evidence?       @relation(fields: [evidenceId], references: [id], onDelete: SetNull)
+  patterns    PatternSignal[]
+}
+
+model Pattern {
+  id                 String          @id
+  title              String
+  summary            String
+  validationQuestion String
+  confidence         Int
+  status             String
+  signals            PatternSignal[]
+  whyLinks           WhyPattern[]
+}
+
+model PatternSignal {
+  id        String  @id
+  patternId String
+  signalId  String
+  pattern   Pattern @relation(fields: [patternId], references: [id], onDelete: Cascade)
+  signal    Signal  @relation(fields: [signalId], references: [id], onDelete: Cascade)
+
+  @@unique([patternId, signalId])
+}
+
+model WhyHypothesis {
+  id           String       @id
+  title        String
+  statement    String
+  confidence   Int
+  status       String
+  evidenceNote String
+  patterns     WhyPattern[]
+}
+
+model WhyPattern {
+  id              String        @id
+  whyHypothesisId String
+  patternId       String
+  whyHypothesis   WhyHypothesis @relation(fields: [whyHypothesisId], references: [id], onDelete: Cascade)
+  pattern         Pattern       @relation(fields: [patternId], references: [id], onDelete: Cascade)
+
+  @@unique([whyHypothesisId, patternId])
+}
+
+model IkigaiMap {
+  id               String @id
+  loves            String
+  strengths        String
+  worldNeeds       String
+  paidFor          String
+  centerOfGravity  String
+  note             String
+}
+
+model WellbeingTarget {
+  id           String @id
+  domain       String
+  currentLevel Int
+  desiredLevel Int
+  priority     Int
+  note         String?
+}
+
+model SkillProfile {
+  id             String @id
+  name           String
+  category       String
+  band           String
+  level          Int
+  evidenceSignal String
+  escoHint       String?
+  onetHint       String?
+  note           String?
+}
+
+model Opportunity {
+  id                String             @id
+  title             String
+  path              String
+  summary           String
+  context           String
+  compensationModel String
+  escoHint          String?
+  onetHint          String?
+  assessment        RoleFitAssessment?
+}
+
+model ActivationPlan {
+  id                String @id
+  scenarioId        String
+  title             String
+  focus             String
+  duration          String
+  moves             String
+  wellbeingLevers   String
+  routineSleep      String
+  routineNutrition  String
+  routineMovement   String
+  routineRecovery   String
+  riskGuardrail     String
+}
+
+model RoleFitAssessment {
+  id              String      @id
+  opportunityId   String      @unique
+  skillFit        Int
+  purposeFit      Int
+  valuesFit       Int
+  energyFit       Int
+  workContextFit  Int
+  wellbeingFit    Int
+  growthPotential Int
+  note            String
+  opportunity     Opportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+}
+
+model Experiment {
+  id         String @id
+  scenarioId String
+  title      String
+  horizon    String
+  theme      String
+  hypothesis String
+  effort     Int
+  impact     Int
+  status     String
+  note       String
+}
+
+model DigitalTwinProfile {
+  id           String              @id
+  title        String
+  status       String
+  objective    String
+  lastRunLabel String
+  guardrail    String
+  signals      DigitalTwinSignal[]
+}
+
+model DigitalTwinSignal {
+  id             String             @id
+  profileId      String
+  title          String
+  summary        String
+  targetAreas    String
+  confidence     Int
+  profile        DigitalTwinProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+}
+
+model OpportunityFeedSnapshot {
+  id                   String   @id
+  query                String
+  searchedAt           DateTime @default(now())
+  escoStatus           String
+  onetStatus           String
+  escoTitles           String
+  onetTitles           String
+  bridgeSummary        String
+}
+
+model GamificationSnapshot {
+  id            String @id
+  level         Int
+  xp            Int
+  nextLevelXp   Int
+  badge         String
+  momentumLabel String
+  wins          String
+}
+
+model DossierExport {
+  id          String   @id
+  title       String
+  format      String
+  summary     String
+  generatedAt DateTime @default(now())
+}

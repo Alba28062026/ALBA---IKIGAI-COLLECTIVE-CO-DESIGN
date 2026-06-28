@@ -1,0 +1,95 @@
+<svg width="1440" height="2260" viewBox="0 0 1440 2260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="2260" fill="#F6F1E7"/>
+  <circle cx="1220" cy="210" r="220" fill="#E8D8C7"/>
+  <circle cx="230" cy="1970" r="250" fill="#DDEEE8"/>
+  <rect x="72" y="72" width="1296" height="2116" rx="46" fill="#FFFCF6" stroke="#E4D7C5" stroke-width="2"/>
+
+  <text x="120" y="162" fill="#B85F32" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="6">ALBA PROTOTYPE</text>
+  <text x="120" y="246" fill="#1D3029" font-family="Georgia, Times New Roman, serif" font-size="82" font-weight="700">ALBA in 5 Minutes</text>
+  <text x="120" y="312" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28">
+    <tspan x="120" dy="0">A calm, privacy-first tool that turns scattered evidence into a</tspan>
+    <tspan x="120" dy="40">Portable Human Portfolio, compares credible futures, and helps</tspan>
+    <tspan x="120" dy="40">activate one next step without diagnosis or fixed identity labels.</tspan>
+  </text>
+
+  <rect x="120" y="420" width="1200" height="190" rx="34" fill="#1D3029"/>
+  <text x="164" y="482" fill="#E7CF88" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">OBJECTIVE</text>
+  <text x="164" y="528" fill="#FFFFFF" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600">
+    <tspan x="164" dy="0">Help a person read what already exists, simulate better life and work</tspan>
+    <tspan x="164" dy="38">directions, and translate one credible scenario into practical</tspan>
+    <tspan x="164" dy="38">movement.</tspan>
+  </text>
+
+  <rect x="120" y="648" width="1200" height="286" rx="34" fill="#FAF3E8" stroke="#E5D8C7" stroke-width="2"/>
+  <circle cx="186" cy="724" r="34" fill="#C56634"/>
+  <text x="174" y="735" fill="#FFFFFF" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="700">1</text>
+  <text x="240" y="718" fill="#1D3029" font-family="Georgia, Times New Roman, serif" font-size="52" font-weight="700">Awareness</text>
+  <text x="240" y="760" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="25">
+    Gather what already exists.
+  </text>
+  <text x="164" y="820" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="23">
+    <tspan x="164" dy="0">- Skills, values, interests, feedback, story, wellbeing, constraints</tspan>
+    <tspan x="164" dy="34">- Local evidence intake from notes and attachments</tspan>
+    <tspan x="164" dy="34">- Output: Portable Human Portfolio and a provisional WHY</tspan>
+  </text>
+
+  <rect x="120" y="970" width="1200" height="306" rx="34" fill="#F2FBF7" stroke="#D5E8E0" stroke-width="2"/>
+  <circle cx="186" cy="1046" r="34" fill="#1F5C50"/>
+  <text x="174" y="1057" fill="#FFFFFF" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="700">2</text>
+  <text x="240" y="1040" fill="#1D3029" font-family="Georgia, Times New Roman, serif" font-size="52" font-weight="700">Simulation</text>
+  <text x="240" y="1082" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="25">
+    Compare credible futures, not identities.
+  </text>
+  <text x="164" y="1142" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="23">
+    <tspan x="164" dy="0">- Translate the portfolio into ESCO / O*NET terminology</tspan>
+    <tspan x="164" dy="34">- Compare hypotheses through Ikigai, PERMAV, and wellbeing thresholds</tspan>
+    <tspan x="164" dy="34">- Output: decision-ready scenarios before any opportunity appears</tspan>
+  </text>
+
+  <rect x="120" y="1312" width="1200" height="306" rx="34" fill="#FFF8EB" stroke="#E7DAB7" stroke-width="2"/>
+  <circle cx="186" cy="1388" r="34" fill="#D2A54A"/>
+  <text x="174" y="1399" fill="#FFFFFF" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="700">3</text>
+  <text x="240" y="1382" fill="#1D3029" font-family="Georgia, Times New Roman, serif" font-size="52" font-weight="700">Activation</text>
+  <text x="240" y="1424" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="25">
+    Turn one scenario into a workable life system.
+  </text>
+  <text x="164" y="1484" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="23">
+    <tspan x="164" dy="0">- Learning paths, portfolio projects, mentorship, networking</tspan>
+    <tspan x="164" dy="34">- Sleep, nutrition, movement, sport, recovery, financial guardrails</tspan>
+    <tspan x="164" dy="34">- Lead experiment, stop criteria, and progressive life or work choices</tspan>
+  </text>
+
+  <text x="120" y="1686" fill="#1D3029" font-family="Georgia, Times New Roman, serif" font-size="48" font-weight="700">What makes this prototype different</text>
+
+  <rect x="120" y="1740" width="570" height="162" rx="28" fill="#FFFFFF" stroke="#E4D7C5" stroke-width="2"/>
+  <text x="154" y="1786" fill="#1F5C50" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">TAXONOMY TRANSLATION</text>
+  <text x="154" y="1824" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20">
+    <tspan x="154" dy="0">Simulation translates the portfolio into</tspan>
+    <tspan x="154" dy="30">shared ESCO and O*NET language before</tspan>
+    <tspan x="154" dy="30">Activation surfaces any next move.</tspan>
+  </text>
+
+  <rect x="750" y="1740" width="570" height="162" rx="28" fill="#FFFFFF" stroke="#E4D7C5" stroke-width="2"/>
+  <text x="784" y="1786" fill="#1F5C50" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">DIGITAL TWIN AGENT</text>
+  <text x="784" y="1824" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20">
+    <tspan x="784" dy="0">A dummy agent reuses local attachments, CVs,</tspan>
+    <tspan x="784" dy="30">profile exports, and wellbeing traces</tspan>
+    <tspan x="784" dy="30">as cautious intake hypotheses.</tspan>
+  </text>
+
+  <rect x="120" y="1934" width="570" height="162" rx="28" fill="#FFFFFF" stroke="#E4D7C5" stroke-width="2"/>
+  <text x="154" y="1980" fill="#1F5C50" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">ACTIVATION LEVERS</text>
+  <text x="154" y="2018" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20">
+    <tspan x="154" dy="0">Opportunities, routines, wellbeing habits,</tspan>
+    <tspan x="154" dy="30">learning paths, and experiments stay in</tspan>
+    <tspan x="154" dy="30">Phase 3 so action follows reflection.</tspan>
+  </text>
+
+  <rect x="750" y="1934" width="570" height="162" rx="28" fill="#FFFFFF" stroke="#E4D7C5" stroke-width="2"/>
+  <text x="784" y="1980" fill="#1F5C50" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">GUARDRAILS</text>
+  <text x="784" y="2018" fill="#44534C" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="20">
+    <tspan x="784" dy="0">No diagnosis. No fixed labels. No public cloud.</tspan>
+    <tspan x="784" dy="30">Every output stays a signal, pattern, or</tspan>
+    <tspan x="784" dy="30">hypothesis to validate.</tspan>
+  </text>
+</svg>
